@@ -1,3 +1,3 @@
 # Spotify Clone
 
-spotify clone 👍
+https://aviral-gupta7.github.io/Spotify-Clone/
