@@ -158,6 +158,10 @@ a {
     margin-left: 0.75rem;
 }
 
+.sticky-nav-icons img {
+    cursor: pointer;
+}
+
 .sticky-nav-options {
     display: flex;
     justify-content: center;
@@ -185,12 +189,17 @@ a {
 }
 
 .card {
-    background-color: #232323;
+    background-color: #23232385;
     width: 150px;
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #232323;
 }
 
 .card-container {
@@ -224,4 +233,153 @@ a {
     height: 50%;
     border-top: 1px solid #fff;
     opacity: 0.4;
+}
+
+.music-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.player {
+    width: 50%;
+
+}
+
+.controls {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.playback-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 50%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-ms-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-moz-range-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+}
+
+.progress-bar::-ms-thumb {
+    appearance: none;
+}
+
+.progress-bar::-moz-range-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 100%;
+}
+
+.album-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.album-obj {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.info-title {
+    font-weight: 500;
+}
+
+.info-info {
+    opacity: 0.7;
+}
+
+.info-info:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.info-title:hover {
+    text-decoration: underline;
+}
+
+
+.album i {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.album i:hover {
+    opacity: 1;
+}
+
+
+.controls-item {
+    margin-left: 1rem;
+}
+
+.controls i {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.controls i:hover {
+    opacity: 1;
+}
+
+.vol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
